@@ -37,5 +37,7 @@ int main()
     derived_class_pointer->var_base = 94;
     derived_class_pointer->var_derived = 194;
     derived_class_pointer->display();
+
+    // This is an example of Run time polymorphism where the function to be called is determined at run time, just like the display function which was called during run time and the function to be called was determined at run time.
     return 0;
 }
