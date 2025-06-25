@@ -51,12 +51,12 @@ class D:public B
 int main()
 {
     // Ambiguity 1
-    // Base1 base1obj;
-    // Base2 base2obj;
-    // base1obj.greet();
-    // base2obj.greet();
-    // Derived object;
-    // object.greet();
+    Base1 base1obj;
+    Base2 base2obj;
+    base1obj.greet();
+    base2obj.greet();
+    Derived object;
+    object.greet();
 
     // Ambiguity 2
     B b;
