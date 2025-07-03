@@ -8,7 +8,7 @@ void display(vector<T> &v)
     for (int i = 0; i < v.size(); i++)
     {
         // cout << v[i] << " ";
-        cout<<v.at(i)<<" "; // This is same as above and have same funtionality
+        cout<<v.at(i)<<" "; // This is same as above and has same funtionality
     }
     cout << endl;
 }
